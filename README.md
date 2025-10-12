@@ -63,11 +63,8 @@ J'ai utilisé ping pour m'assurer que les 3 pc communique bien.
 
 ### Routeur R-bat1
 
+ 
 
-
-
-Batiment 2
-mauvais branchement (actuellement port 20 possibilité mettre port 24 (vlan99))
 
 ## Datacenter
 ...
