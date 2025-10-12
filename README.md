@@ -63,8 +63,12 @@ J'ai utilisé ping pour m'assurer que les 3 pc communique bien.
 
 ### Routeur R-bat1
 
- 
+ On constate que pc09(192.168.10.10) ne peut pinguer pc11 (172.16.10.10)
 
+sur S1 j'ai modifié le port gig0/1 pour activer le mode trunk et laisser passer les vlans (10,20 et 99)
+sur S2 j'ai modifié le port gig0/2 pour activer le mode trunk et laisser passer les vlans (10,20 et 99)
+
+je constate maintenant que le ping passe bien entre les machines derriere le s1 et les machines derriere le s2.
 
 ## Datacenter
 ...
